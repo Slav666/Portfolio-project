@@ -7,6 +7,7 @@ header {
     position: relative;
     background-color: #29a6dc;
     height: 100vh;
+    overflow: hidden;
 }
 header img {
     position: absolute;
@@ -14,13 +15,12 @@ header img {
     bottom: 0;
     right: 0;
 }
-.welcome {
+
+header div.welcome {
     position: absolute;
     top: 10%;
     left: 5%;
     right: 5%;
-}
-header div {
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -35,5 +35,21 @@ header h2 {
     
     font-size: 20px;
     font-weight: 20px;
+    font-weight: normal;
 }
-
+@media (orientation: landscape){
+    header img {
+        position: absolute;
+        height: 80%;
+        bottom: 0;
+        right: -5px;
+    }
+    header div.welcome {
+        top: 15%;
+        left: 5%;
+        right: 50%;
+    }
+}
+section {
+    min-height: 100vh;
+}
