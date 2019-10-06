@@ -34,8 +34,44 @@ header h1 {
 header h2 {
     
     font-size: 20px;
-    font-weight: 20px;
     font-weight: normal;
+}
+
+@media (orientation: portrait) and (min-width: 360px) {
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    }
+
+@media (orientation: portrait) and (min-width: 410px) {
+header h1 {
+    font-size: 26px;
+}
+header h2 {
+    font-size: 26px;
+}
+header img {
+    right: -20%;
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+    header p {
+      font-size: 80px;
+    }
+    header h1 {
+      font-size: 32px;
+    }
+    header h2 {
+      font-size: 32px;
+    }
+  
+    header img {
+      right: -20%;
+    }
+  }
 }
 @media (orientation: landscape){
     header img {
@@ -48,6 +84,33 @@ header h2 {
         top: 15%;
         left: 5%;
         right: 50%;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+}
+@media (orientation: landscape) and (min-width: 1024px) {
+
+    header p {
+        font-size: 56px;
+    }
+    header h1 {
+        font-size: 34px;
+        margin-top: 40px; 
+    }
+    header h2 {
+        font-size: 34px;
+    }
+
+    header img {
+        right: -22%;
+        height: 95%;
     }
 }
 section {
