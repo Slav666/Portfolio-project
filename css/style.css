@@ -197,3 +197,40 @@ margin-right: auto;
         width: 80%;
     }
 }
+
+
+/* section motto */
+.slogan .bg {
+    background-color: black;
+}
+.slogan {
+    position: relative;
+background-image: url("../images/photo2.jpg");
+background-image: transparent;
+width: 100%;
+height: 900px;
+}
+.slogan h1{
+position: absolute;
+font-size: 24px;
+text-transform: uppercase;
+top: 40%;
+left:45%;
+color: white;
+font-family: 'Saira Condensed', sans-serif; 
+
+}
+
+.slogan h2 {
+    position: absolute;
+    font-size: 34px;
+    text-transform: uppercase;
+    top: 50%;
+    left: 25%;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif; 
+
+}
+.lol {
+    background-color: blueviolet;
+}
