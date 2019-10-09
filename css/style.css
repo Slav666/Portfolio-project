@@ -196,7 +196,7 @@ margin-right: auto;
 }
 
 
-/* section motto */
+/* section slogan */
 
 .slogan {
     text-align: center;
@@ -205,7 +205,6 @@ margin-right: auto;
     background-position: center;
     background-attachment: fixed;
     color: white;
-    
 }
 .slogan h1 {
     font-family: 'Saira Condensed', sans-serif;
@@ -217,47 +216,56 @@ margin-right: auto;
     font-family: 'Saira', sans-serif;
     font-size: 18px;
     text-align: center;
-  }
+}
   .slogan .bg {
     padding: 30px 10px;
-    background-color: rgba(0, 63, 114, 0.5);
-    /*  #003f72*/
-  }
+    background-color: rgba(0, 63, 114, 0.4);
+}
+
+@media (orientacion: landscape) {
+    .slogan p {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
   
-  @media (min-width: 1024px) {
+@media (min-width: 768px) {
+    .slogan .bg {
+        padding-top: 50px 10px;
+    }
+    .slogan h1 {
+        font-size: 38px;
+        margin-bottom: 25px
+    }
+    .slogan p {
+        font-family: 'Saria', sans-serif;
+        font-size: 26px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
 
     .slogan .bg {
       padding: 80px 10px;
-  
     }
   
     .slogan h1 {
       font-size: 60px;
-      margin-bottom: 55px;
-  
+      margin-bottom: 35px;
     }
   
     .slogan p {
-      font-size: 40px;
-      width: 50%;
+      font-size: 26px;
+      width: 60%;
     }
+}
   
-    
-  }
-  
-.lol {
+/* .lol {
     height: 400px;
     width: 100%;
     background-color: black;
 }
-/* .slogan h2 {
-    position: absolute;
-    font-size: 34px;
-    text-transform: uppercase;
-    top: 50%;
-    left: 25%;
-    color: white;
-    font-family: 'Saira Condensed', sans-serif; 
-
-} */
+ */
 
