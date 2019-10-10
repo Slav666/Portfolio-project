@@ -356,6 +356,22 @@ header img {
         font-size: 30px;
     }
 }
+@media (min-width: 1024px) {
+    .hobby .item p {
+        line-height: 40vh;
+        margin-bottom: 35px;
+        opacity: 0;
+    }
+    .hobby .item:hover p {
+        opacity: 1;
+    }
+    .hobby .item {
+        background-size: 100%;
+    }
+    .hobby .item:hover  {
+        background-size: 130%;
+    }
+}
 /* .lol {
     height: 400px;
     width: 100%;
