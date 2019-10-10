@@ -361,12 +361,14 @@ header img {
         line-height: 40vh;
         margin-bottom: 35px;
         opacity: 0;
+        transition: 1s;
     }
     .hobby .item:hover p {
         opacity: 1;
     }
     .hobby .item {
         background-size: 100%;
+        transition: 1s;
     }
     .hobby .item:hover  {
         background-size: 130%;
