@@ -153,6 +153,7 @@ header img {
     margin-top: 10px;
     padding: 5%;
     text-align: center;
+    
 }
 .features h1 {
     font-family: 'Saira Condensed' sans-serif; 
@@ -374,6 +375,33 @@ header img {
         background-size: 130%;
     }
 }
+/* @media (min-width: 1600px) {
+
+ }? */
+
+/* section contact */
+.contact {
+    color: white;
+    text-align: center;
+}
+.contact .detail img {
+     max-height: 35px;
+}
+.contact .detail p {
+    font-family: 'saira', sans-serif;
+}
+.detail  {
+    background-color: black;
+    padding: 15px;
+}
+.contact h1 {
+      background-color: white;
+      text-transform: uppercase;
+      color: black;
+      margin-top: 30px;
+      margin-bottom: 30px;
+}
+
 /* .lol {
     height: 400px;
     width: 100%;
