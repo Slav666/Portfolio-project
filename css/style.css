@@ -401,7 +401,29 @@ header img {
       margin-top: 30px;
       margin-bottom: 30px;
 }
+@media (orientation: landscape) {
+     .detail  {
+       
+        float: left;
+        width: 33.333%;
 
+    }
+}
+
+footer {
+    background-color: #29a6dc;
+    color: white;
+    font-family: 'saira', sans-serif;
+    text-align: center;
+}
+@media (min-width: 1024px){
+    .contact .detail img {
+        max-height: 55px;
+   }
+   .contact .detail p {
+    font-size: 22px;
+}
+}
 /* .lol {
     height: 400px;
     width: 100%;
