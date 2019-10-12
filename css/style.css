@@ -281,6 +281,29 @@ header img {
 .portfolio .project:nth-of-type(even){
     background-color: #29a6dc;
 }
+@media (orientation: landscape) {
+    .web, .about {
+        width: 50%;
+        float: left;
+    }
+    .web img {
+        display: block;
+    }
+    .portfolio .project:nth-of-type(even)
+        .web {
+            float: right;
+        }
+        .portfolio .project:nth-of-type(even) .about {
+            padding-right: 0;
+          }
+          .portfolio .project:nth-of-type(even) .about p {
+            padding-right: 20px;
+          }
+          .portfolio .project:nth-of-type(even) .about h2 {
+            text-indent: 0;
+            margin-left: 40px;
+          }
+}
 
 
 
