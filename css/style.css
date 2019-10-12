@@ -174,6 +174,7 @@ header img {
     font-family: 'Saira' sans-serif; 
     font-size: 16px;
     font-weight: 300;
+    text-align: left;
     
 }
 
@@ -558,7 +559,7 @@ header img {
 }
 
 footer {
-    background-color: #29a6dc;
+    background-color: #282828;
     color: white;
     font-family: 'saira', sans-serif;
     text-align: center;
@@ -572,10 +573,6 @@ footer {
 }
 }
 
-.about h2 button {
-    float: left;
-    width: 50%
-}
 
 /* .lol {
     height: 400px;
