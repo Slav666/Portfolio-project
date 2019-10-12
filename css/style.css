@@ -232,6 +232,57 @@ header img {
     }
 }
 
+/* section portfolio */
+.portfolio {
+    background-color: black;
+    padding: 10px 0 30px;
+
+}
+.portfolio h1 {
+    font-size: 28px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+.portfolio .web img {
+    width: 100%;
+    
+}
+.portfolio .about {
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-weight: normal;
+    padding: 10px 20px 20px 20px;
+    text-align: left;
+    
+}
+.portfolio .about h2 {
+    font-size: 18px;
+    border-bottom: 2px solid white;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+}
+
+.portfolio .about p {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.portfolio .project {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+}
+.portfolio .project:nth-of-type(odd) {
+    background-color: #ff4f2c;
+}
+.portfolio .project:nth-of-type(even){
+    background-color: #29a6dc;
+}
+
+
 
 /* section slogan */
 
