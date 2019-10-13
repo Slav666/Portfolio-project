@@ -353,7 +353,10 @@ header img {
 }
 
 /* section education */
-
+.ed {
+    max-width: 1600px;
+    margin: 50px auto 0;
+}
 .education img{
     max-width: 80px;
     max-height: 70px;
@@ -394,6 +397,53 @@ header img {
     padding: 20px;
     text-transform: uppercase;
     font-size: 20px;
+}
+@media (orientation: landscape) {
+    .education h2 {
+        width: 80%;
+    }
+    .education img {
+        margin-left: 10px;
+    }
+    
+}
+@media (min-width: 1024px) {
+    .education {
+        float: left;
+        width: 33%;
+        padding: 20px;
+    }
+    .education h2 {
+        width: 65%;
+        font-size: 35px;
+        padding-top: 20px;
+    }
+    .education img{
+        max-width: 130px;
+        max-height: 90px;
+        
+        
+        
+    }
+    
+    .ed h1 {
+        font-size: 50px;
+        padding: 55px;
+        margin-bottom: 10px;
+    }
+    .education h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 25px;
+    }
+    .education p{
+        font-size: 20px;
+        /* padding-top: 25px; */
+    }
+    .education h4 {
+        font-size: 16px;
+    }
+    
 }
 
 
@@ -553,6 +603,7 @@ header img {
 }
 .contact .detail p {
     font-family: 'saira', sans-serif;
+    font-size: 14px;
 }
 
 .detail  {
