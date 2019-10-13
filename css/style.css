@@ -24,8 +24,9 @@ header {
 header img {
     position: absolute;
     height: 50%;
-    bottom: 0;
+    bottom: -48px;
     right: 0;
+    padding-top: 20px;
 }
 
 header div.welcome {
@@ -56,7 +57,14 @@ header h2 {
     header h2 {
         font-size: 24px;
     }
+    header img {
+        
+        height: 70%;
+        bottom: -85px;
+        right: -60px;
+        
     }
+}
 
 @media (orientation: portrait) and (min-width: 410px) {
 header h1 {
@@ -67,6 +75,7 @@ header h2 {
 }
 header img {
     right: -20%;
+    bottom: -95px;
 }
 
 @media (orientation: portrait) and (min-width: 768px) {
@@ -82,6 +91,7 @@ header img {
   
     header img {
       right: -20%;
+      bottom: -135px;
     }
   }
 }
@@ -89,7 +99,7 @@ header img {
     header img {
         position: absolute;
         height: 80%;
-        bottom: 0;
+        bottom: -45px;
         right: -5px;
     }
     header div.welcome {
@@ -106,6 +116,11 @@ header img {
     header h2 {
         font-size: 24px;
     }
+    header img {
+        height: 100%;
+        bottom: -75px;
+        right: -35px;
+    }
 }
 @media (orientation: landscape) and (min-width: 1024px) {
 
@@ -121,7 +136,8 @@ header img {
     }
 
     header img {
-        right: -22%;
+        bottom: -140px;
+        right: -21%;
         height: 95%;
     }
 }
@@ -141,8 +157,10 @@ header img {
     }
 
     header img {
-        right: -18%;
-        height: 85%;
+        height: 100%;
+        right: -10%;
+        height: 100%;
+        bottom: -125px;
     }
 }
 /* section feature */
@@ -172,9 +190,9 @@ header img {
     max-width: 300px;
 }
 .features p {
-    font-family: 'Saira' sans-serif; 
+    font-family: 'Saira Condensed' sans-serif; 
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 200;
     text-align: left;
     
 }
@@ -229,8 +247,10 @@ header img {
         font-size: 36px;
     }
     .feature p {
-        font-size: 21px;
+        font-size: 20px;
         padding: 0 10px;
+        font-family: 'Saira';
+        font-weight: 400;
     }
 }
 
@@ -271,6 +291,7 @@ header img {
 
 .portfolio .about p {
     font-size: 12px;
+    font-family: 'Saira Condensed', sans-serif;
     /* padding-left: 20px; */
 }
 
