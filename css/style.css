@@ -164,6 +164,7 @@ header img {
 .features h2 {
     font-family: 'Saira Condensed' sans-serif;
     padding: 10px;
+    text-transform: uppercase;
 }
 .features img {
     width: 100%;
@@ -222,7 +223,7 @@ header img {
         padding:  20px 40px;
     }
     .features h1 {
-        font-size: 55px;
+        font-size: 45px;
     }
     .feature h2 {
         font-size: 36px;
@@ -352,14 +353,16 @@ header img {
 }
 
 /* section education */
+
 .education img{
     max-width: 80px;
     max-height: 70px;
-    padding: 5px;
+    padding: 2px;
     background-color: #29a6dc;
     margin-left: 5px;
-
+    
 }
+
 .education h2 {
     float: right;
     width: 70%;
@@ -367,19 +370,32 @@ header img {
     font-size: 25px;
     padding-top: 10px;
     margin: 5px;
+    text-align: left;
+}
+.education h3 {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.education h4 {
+    font-size: 12px;
+    padding-left: 10px;
 }
 
-
 .education p {
-   
+   font-size: 14px;
     padding: 10px;
+    font-family: 'Saira Condensed', sans-serif;
 }
 .ed h1 {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 20px;
 }
+
 
 /* section slogan */
 
@@ -538,9 +554,17 @@ header img {
 .contact .detail p {
     font-family: 'saira', sans-serif;
 }
+
 .detail  {
     background-color: black;
     padding: 15px;
+}
+a:link {
+    
+    text-decoration: none;
+}
+#link {
+    color: white;
 }
 .contact h1 {
       background-color: white;
@@ -548,7 +572,10 @@ header img {
       color: black;
       margin-top: 30px;
       margin-bottom: 30px;
+      font-size: 40px;
+      font-family: 'saira condensed', sans-serif;
 }
+
 @media (orientation: landscape) {
      .detail  {
        
