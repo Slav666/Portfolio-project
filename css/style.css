@@ -467,6 +467,7 @@ header img {
     font-family: 'Saira', sans-serif;
     font-size: 18px;
     text-align: center;
+    text-transform: uppercase;
 }
   .slogan .bg {
     padding: 30px 10px;
@@ -527,7 +528,7 @@ header img {
     
 }
  .hobby .item:nth-of-type(2) {
-    background-image: url(../images/hobby2.jpg);
+    background-image: url(../images/hobby1.jpg);
  }
 .hobby .item:nth-of-type(3) {
     background-image: url(../images/hobby3.jpg);
@@ -544,7 +545,8 @@ header img {
     /* line-height: 25vh; */
     text-shadow: 0 0 4px black;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .hobby h1 {
     font-family: 'saira condensed', sans-serif;
