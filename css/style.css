@@ -321,6 +321,22 @@ header img {
     /* padding-left: 20px; */
 }
 
+ .about a {
+    font-weight: 300;
+    padding: 5px;
+    margin-left: 45%;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    color: black;
+    
+    font-size: 12px;
+ }
+
+
+/* .portfolio .about a {
+    text-decoration: none;
+} */
+
 .portfolio .project {
     max-width: 1400px;
     margin: 0 auto 20px;
