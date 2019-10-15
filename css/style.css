@@ -189,11 +189,22 @@ header img {
     margin: 20px 0;
     max-width: 300px;
 }
-.features p {
+/* .features p {
     font-family: 'Saira Condensed' sans-serif; 
     font-size: 16px;
     font-weight: 200;
     text-align: left;
+    
+} */
+.feature ul {
+    padding-left: 10px;
+}
+.feature li{
+    font-size: 16px;
+    text-align: left;
+    
+    /* padding: 0 10px; */
+    /* padding-left: 10px; */
     
 }
 
@@ -229,10 +240,18 @@ header img {
     .features h2 {
         font-size: 22px;
     }
-    .features p{
+    /* .features p {
         font-size: 21px;
         padding: 0 10px;
         margin-top: 10px;
+    } */
+    
+    .feature li{
+        font-size: 21px;
+        text-align: left;
+        padding: 0 10px;
+        /* padding-left: 10px; */
+        
     }
     
 }
@@ -251,6 +270,11 @@ header img {
         padding: 0 10px;
         font-family: 'Saira';
         font-weight: 400;
+    }
+    .feature ul li {
+        font-size: 21px;
+        text-align: center;
+        /* padding-left: 10px;; */
     }
 }
 
