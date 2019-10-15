@@ -202,6 +202,7 @@ header img {
 .feature li{
     font-size: 16px;
     text-align: left;
+    font-family: 'Saira Condensed', sans-serif;
     
     /* padding: 0 10px; */
     /* padding-left: 10px; */
@@ -235,10 +236,11 @@ header img {
         padding: 30px;
     }
     .features h1{
-        font-size: 36px;
+        font-size: 60px;
+        margin-bottom: 30px;
     }
     .features h2 {
-        font-size: 22px;
+        font-size: 25px;
     }
     /* .features p {
         font-size: 21px;
