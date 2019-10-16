@@ -18,14 +18,14 @@ html {
 header {
     position: relative;
     background-color: #29a6dc;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
 }
 header img {
     position: absolute;
-    height: 50%;
-    bottom: -48px;
-    right: 0;
+    height: 63%;
+    bottom: -58px;
+    right: -20px;
     padding-top: 20px;
 }
 
@@ -65,6 +65,14 @@ header h2 {
         
     }
 }
+@media (orientation: portrait) and (min-width: 375px){
+    header img {
+        height: 70%;
+        right: -110px;
+        
+        bottom: -95px;
+    }
+}
 
 @media (orientation: portrait) and (min-width: 410px) {
 header h1 {
@@ -74,7 +82,7 @@ header h2 {
     font-size: 26px;
 }
 header img {
-    right: -20%;
+    right: -23%;
     bottom: -95px;
 }
 
@@ -109,6 +117,20 @@ header img {
     }
 }
 
+@media (orientation: landscape) and (min-width: 568px) {
+    header h1 {
+        font-size: 24px;
+    }
+    header h2 {
+        font-size: 24px;
+    }
+    header img {
+        height: 110%;
+        bottom: -75px;
+        right: -35px;
+    }
+}
+
 @media (orientation: landscape) and (min-width: 640px) {
     header h1 {
         font-size: 24px;
@@ -132,13 +154,13 @@ header img {
         margin-top: 40px; 
     }
     header h2 {
-        font-size: 34px;
+        font-size: 44px;
     }
 
     header img {
-        bottom: -140px;
+        bottom: -130px;
         right: -21%;
-        height: 95%;
+        height: 100%;
     }
 }
 @media (orientation: landscape) and (min-width: 1280px) {
@@ -159,10 +181,74 @@ header img {
     header img {
         height: 100%;
         right: -10%;
-        height: 100%;
+        
         bottom: -125px;
+
+    }
+} 
+@media (orientation: portrait) and (min-width: 1024px){
+
+    header img {
+        height: 90%;
+        right: -16%;
+        
+        bottom: -280px;
+    }
+    header h1 {
+        font-size: 60px;
+        margin-top: 50px; 
+    }
+    header h2 {
+        font-size: 55px;
+    }
+
+}
+/* @media (orientation: landscape) and (min-width: 1600px){
+    header img {
+        right: -8%;
+        height: 90%;
+    
+      }
+} */
+@media (orientation: landscape) and (min-width: 1365px) {
+    header div.welcome {
+        text-align: left;
+    }
+    header p {
+        font-size: 100px;
+    }
+    header h1 {
+        font-size: 40px;
+        margin-top: 50px; 
+    }
+    header h2 {
+        font-size: 45px;
+    }
+
+    header img {
+        height: 100%;
+        right: -10%;
+        
+        bottom: -175px;
     }
 }
+/* @media (orientation: landscape) and (min-width: 1600px) {
+    header img {
+        height: 100%;
+        right: -10%;
+        
+        bottom: -50px;
+    }
+} */
+
+/* @media (orientation: portrait) and (min-width: 375px){
+    header img {
+        height: 70%;
+        right: -10%;
+        height: 100%;
+        bottom: -115px;
+    }
+} */
 /* section feature */
 
 .features {
@@ -183,6 +269,7 @@ header img {
     font-family: 'Saira Condensed' sans-serif;
     padding: 10px;
     text-transform: uppercase;
+    font-size: 16px;
 }
 .features img {
     width: 100%;
@@ -196,11 +283,11 @@ header img {
     text-align: left;
     
 } */
-.feature ul {
-    padding-left: 10px;
+.features ul {
+    padding: 20px;
 }
-.feature li{
-    font-size: 16px;
+.features li{
+    font-size: 14px;
     text-align: left;
     font-family: 'Saira Condensed', sans-serif;
     
@@ -210,23 +297,25 @@ header img {
 }
 
 @media (min-width: 360px) {
-    .feature h1 {
-        font-size: 28px;
+    .features h1 {
+        font-size: 26px;
     }
-    .feature h2 {
-        font-size: 24px;
+    .features h2 {
+        font-size: 20px;
     }
-
+    .features li {
+    font-size: 16px;
+    }
 }
 @media (min-width: 768px) {
-    .feature h1 {
+    .features h1 {
+        font-size: 54px;
+    }
+    .features h2 {
         font-size: 34px;
     }
-    .feature h2 {
-        font-size: 24px;
-    }
-    .feature p {
-        font-size: 18px;
+    .features li {
+        font-size: 28px;
     }
 }
 @media (min-width: 1024px) {
@@ -242,18 +331,12 @@ header img {
     .features h2 {
         font-size: 25px;
     }
-    /* .features p {
-        font-size: 21px;
-        padding: 0 10px;
-        margin-top: 10px;
-    } */
     
-    .feature li{
+    
+    .features li{
         font-size: 21px;
         text-align: left;
         padding: 0 10px;
-        /* padding-left: 10px; */
-        
     }
     
 }
@@ -267,16 +350,11 @@ header img {
     .feature h2 {
         font-size: 36px;
     }
-    .feature p {
-        font-size: 20px;
-        padding: 0 10px;
-        font-family: 'Saira';
-        font-weight: 400;
-    }
-    .feature ul li {
+    
+    .features li {
         font-size: 21px;
         text-align: center;
-        /* padding-left: 10px;; */
+        
     }
 }
 
@@ -297,13 +375,14 @@ header img {
 }
 .portfolio .web img {
     width: 100%;
+    padding: 25px;
     
 }
 .portfolio .about {
     color: white;
     font-family: 'Saira', sans-serif;
     font-weight: normal;
-    padding: 2px 10px 10px 10px;
+    padding: 10px 20px 20px 0;
     text-align: left;
     
 }
@@ -317,8 +396,8 @@ header img {
 
 .portfolio .about p {
     font-size: 12px;
-    font-family: 'Saira Condensed', sans-serif;
-    /* padding-left: 20px; */
+    /* font-family: 'Saira Condensed', sans-serif; */
+    padding-left: 20px;
 }
 
  .about a {
@@ -328,7 +407,6 @@ header img {
     text-transform: uppercase;
     font-family: 'Saira Condensed', sans-serif;
     color: black;
-    
     font-size: 12px;
  }
 
@@ -347,13 +425,17 @@ header img {
 .portfolio .project:nth-of-type(even){
     background-color: #29a6dc;
 }
+
+
 @media (orientation: landscape) {
-    .web, .about {
+    .web,
+     .about {
         width: 50%;
         float: left;
     }
     .web img {
         display: block;
+        
     }
     .portfolio .project:nth-of-type(even)
         .web {
@@ -414,6 +496,7 @@ header img {
       margin-bottom: 40px;
     }
 }
+
 
 /* section education */
 .ed {
