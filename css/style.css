@@ -407,7 +407,7 @@ header img {
     text-transform: uppercase;
     font-family: 'Saira Condensed', sans-serif;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
  }
 
 
@@ -494,6 +494,9 @@ header img {
   
     .portfolio .project {
       margin-bottom: 30px;
+    }
+    .about a {
+        font-size: 20px;
     }
 }
 
