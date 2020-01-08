@@ -40,6 +40,12 @@ const slideList = [ {
 const time = 3000;
 let active = 0; 
 
+const changeDot = () => {
+    const activeDot = dots.findIndex(dot => dot.classList.contains('active'));
+    dots[activeDot].classList.remove('active');
+    dots[active].classList.add('active');
+    }
+
 const image = document.querySelector('.web img');
 const h2 = document.querySelector('.about h2');
 const p = document.querySelector('.about p');
@@ -55,6 +61,8 @@ const changeSlide = () => {
     h2.textContent = slideList[active].title;
     p.textContent = slideList[active].text;
     a.href= slideList[active].link
+    
+    changeDot()
 }    
 
 let indexInterval = setInterval(changeSlide, time)
