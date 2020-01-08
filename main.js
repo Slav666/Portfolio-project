@@ -36,3 +36,25 @@ const slideList = [ {
     }
 
 ]
+
+const time = 3000;
+let active = 0; 
+
+const image = document.querySelector('.web img');
+const h2 = document.querySelector('.about h2');
+const p = document.querySelector('.about p');
+const a = document.querySelector('.about a');
+const dots =[...document.querySelectorAll('.dots span')]
+
+const changeSlide = () => {
+    active++;
+    if (active === slideList.length) {
+     active = 0;
+    }
+    image.src = slideList[active].img;
+    h2.textContent = slideList[active].title;
+    p.textContent = slideList[active].text;
+    a.href= slideList[active].link
+}    
+
+let indexInterval = setInterval(changeSlide, time)
