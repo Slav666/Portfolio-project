@@ -328,6 +328,27 @@ header img {
 }
 
 /* section portfolio */
+.dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.dots span {
+    display: inline-block;
+    background-color: black;
+    margin: 0 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px white;
+}
+
+.dots span.active {
+    box-shadow: 0 0 0 5px white, 0 0 3px 10px orange;
+}
+
 .portfolio {
     background-color: black;
     padding: 10px 0 30px;
@@ -383,13 +404,14 @@ header img {
 .portfolio .project {
     max-width: 1400px;
     margin: 0 auto 20px;
+    background-color: #29a6dc;
 }
-.portfolio .project:nth-of-type(odd) {
+/* .portfolio .project:nth-of-type(odd) {
     background-color: #ff4f2c;
 }
 .portfolio .project:nth-of-type(even){
     background-color: #29a6dc;
-}
+} */
 
 
 @media (orientation: landscape) {
