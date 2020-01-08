@@ -328,6 +328,18 @@ header img {
 }
 
 /* section portfolio */
+
+.info {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    font-size: 10px;
+   
+}
+
 .dots {
     position: absolute;
     bottom: 40px;
@@ -351,7 +363,8 @@ header img {
 
 .portfolio {
     background-color: black;
-    padding: 10px 0 30px;
+    padding: 10px 0 50px;
+    position: relative;
 
 }
 .portfolio h1 {
