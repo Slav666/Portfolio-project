@@ -33,7 +33,14 @@ const slideList = [ {
     title: "ToDo List app",
     text: "SOLO PROJECT. This application helps to create a list of all user tasks. The user can add a new task to the list with the task priority and predicted finish date. The user can see the list of all tasks with two buttons: done and remove. Done button move selected tasks to the finalised section. Remove button deletes selected tasks. Technologies used: React, HTML, CSS",
     link: "https://github.com/Slav666/js-group-project-beer"
+    },
+{
+    img: "images/portfolio7.png",
+    title: "ToDo List app Java",
+    text: "SOLO PROJECT. This application helps to create a list of all user tasks. The user can add a new task to the list with the task priority and predicted finish date. The user can see the list of all tasks with two buttons: done and remove. Done button move selected tasks to the finalised section. Remove button deletes selected tasks. Technologies used: React, HTML, CSS",
+    link: "https://github.com/Slav666/js-group-project-beer"
     }
+
 
 ]
 

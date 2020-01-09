@@ -339,7 +339,7 @@ header img {
 
 .dots span {
     display: inline-block;
-    background-color: black;
+    background-color: #29a6dc;
     margin: 0 7px;
     width: 5px;
     height: 5px;
@@ -393,7 +393,7 @@ header img {
     padding-left: 20px;
 }
 
- .about a {
+.about a {
     font-weight: 300;
     padding: 5px;
     margin-left: 45%;
@@ -401,13 +401,14 @@ header img {
     font-family: 'Saira Condensed', sans-serif;
     color: black;
     font-size: 14px;
- }
+}
 
 
 .portfolio .project {
     max-width: 1400px;
     margin: 0 auto 20px;
-    background-color: #29a6dc;
+    /* background-color: #29a6dc; */
+    background-color: #1974d2;
 }
 
 
