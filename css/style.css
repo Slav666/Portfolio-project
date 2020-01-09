@@ -329,16 +329,6 @@ header img {
 
 /* section portfolio */
 
-.info {
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-transform: uppercase;
-    font-size: 10px;
-   
-}
 
 .dots {
     position: absolute;
@@ -350,9 +340,9 @@ header img {
 .dots span {
     display: inline-block;
     background-color: black;
-    margin: 0 15px;
-    width: 10px;
-    height: 10px;
+    margin: 0 7px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     box-shadow: 0 0 0 5px white;
 }
@@ -419,12 +409,6 @@ header img {
     margin: 0 auto 20px;
     background-color: #29a6dc;
 }
-/* .portfolio .project:nth-of-type(odd) {
-    background-color: #ff4f2c;
-}
-.portfolio .project:nth-of-type(even){
-    background-color: #29a6dc;
-} */
 
 
 @media (orientation: landscape) {
@@ -441,17 +425,8 @@ header img {
     .portfolio .project:nth-of-type(even)
         .web {
             float: right;
-        }
-        .portfolio .project:nth-of-type(even) .about {
-            padding-right: 0;
-          }
-          .portfolio .project:nth-of-type(even) .about p {
-            padding-right: 20px;
-          }
-          .portfolio .project:nth-of-type(even) .about h2 {
-            text-indent: 0;
-            margin-left: 40px;
-          }
+    }
+        
           
 }
 @media (min-width:768px) {
@@ -500,6 +475,24 @@ header img {
     .about a {
         font-size: 20px;
     }
+    .info {
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+        font-size: 10px;
+       
+    }
+    .dots span {
+        
+        margin: 0 15px;
+        width: 10px;
+        height: 10px;
+        
+    }
+
 }
 
 

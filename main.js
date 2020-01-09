@@ -1,7 +1,7 @@
 const slideList = [ {
     img: "images/portfolio1.png",
     title: "Restaurant Booking App - Group project",
-    text: "The restaurant needs a way to book and arrange tables for customers who are booking over the phone. This system is for the staff to use. The application allows the manager to book a table at the restaurant for a particular customer at a particular time, date and also enables update a booking. Technologies used: Java, Spring, React, PSQL.",
+    text: "The restaurant needs a way to book and arrange tables for customers who are booking over the phone. This system is for the staff to use. The application allows the manager to book a table at the restaurant for a particular customer at a particular time, date and also enables update a booking. Technologies used: Java, Spring, React, PSQL. ",
     link: "https://github.com/Slav666/booking-app"
     
 },{
