@@ -1,7 +1,7 @@
 const slideList = [ {
     img: "images/portfolio1.png",
-    title: "Restaurant Booking App - Group project",
-    text: "The restaurant needs a way to book and arrange tables for customers who are booking over the phone. This system is for the staff to use. The application allows the manager to book a table at the restaurant for a particular customer at a particular time, date and also enables update a booking. Technologies used: Java, Spring, React, PSQL. ",
+    title: "Restaurant Booking App",
+    text: "GROUP PROJECT. The restaurant needs a way to book and arrange tables for customers who are booking over the phone. This system is for the staff to use. The application allows the manager to book a table at the restaurant for a particular customer at a particular time, date and also enables update a booking. Technologies used: Java, Spring, React, PSQL. ",
     link: "https://github.com/Slav666/booking-app"
     
 },{
@@ -13,38 +13,38 @@ const slideList = [ {
 {
     img: "images/portfolio3.png",
     title: "Animal Shelter App",
-    text: "SOLO PROJECT. The Scottish Animal Shelter is a management system to keep track of their animals and owners. The shelter has a list of potential new owners for animals and owners who have already adopted animals. A user can add a new owner to the list, can add a new animal to be adopted or to be added to the quarantine list. Technologies used: Ruby, Sinatra, HTML, CSS, PSQL.",
-    link: "https://github.com/Slav666/js-group-project-beer"
+    text: "SOLO PROJECT. The Scottish Animal Shelter is a management system to keep track of their animals and owners. The shelter has a list of potential new owners and owners who have already adopted animals. A user can add a new owner to the list, can add a new animal to be adopted or to be added to the quarantine list. Technologies used: Ruby, Sinatra, HTML, CSS, PSQL.",
+    link: "https://github.com/Slav666/Solo-project_animals-shelter"
 },
 {
     img: "images/portfolio4.png",
     title: "Gwent Memory Test Game",
-    text: "OLO PROJECT. Player needs to find two the same cards. At first turn, a player chooses a random card and try to guess where is the second the same card. If the player is not successful both cards move to the face-down position. The player tries to remember the card’s faces and cards location. When the player finds two the same cards, they stay face up and the player starts the next turn. Technologies used: JavaScript, HTML, CSS.",
-    link: "https://github.com/Slav666/js-group-project-beer"
+    text: "SOLO PROJECT. At first turn, a player chooses a random card and try to guess where is the second the same card. If the player is not successful both cards move to the face-down position. The player tries to remember the card’s faces and cards location. When the player finds two the same cards, they stay face up and the player starts the next turn. Tech. used: JS, HTML, CSS.",
+    link: "https://github.com/Slav666/Gwent_game"
 },
 {
     img: "images/portfolio5.png",
     title: "My portfolio website",
-    text: "SOLO PROJECT. This is my portfolio website. I know, the website is simple but I wanted to learn responsive web design and practise CSS. Every element of this page I have created myself. Technologies used: HTML, CSS, Responsive web design.",
-    link: "https://github.com/Slav666/js-group-project-beer"
+    text: "SOLO PROJECT. It is my portfolio website. The website contains all the information about me who I am, my technical education, lists of my projects, my hobbies, etc. Every element of this page I have created myself. Technologies used: HTML, CSS, Responsive web design, JavaScript, Photoshop.",
+    link: "https://github.com/Slav666/Portfolio-project"
 },
 {
     img: "images/portfolio6.png",
-    title: "ToDo List app",
-    text: "SOLO PROJECT. This application helps to create a list of all user tasks. The user can add a new task to the list with the task priority and predicted finish date. The user can see the list of all tasks with two buttons: done and remove. Done button move selected tasks to the finalised section. Remove button deletes selected tasks. Technologies used: React, HTML, CSS",
-    link: "https://github.com/Slav666/js-group-project-beer"
+    title: "ToDo List app React",
+    text: "SOLO PROJECT. The application helps to create a list of all user tasks. The user can add a new task to the list with the task priority and predicted finish date. The user can see the list of all tasks with two buttons: done and remove. Done button move selected tasks to the finalised section. Remove button deletes selected tasks. Technologies used: React, HTML, CSS.",
+    link: "https://github.com/Slav666/ToDo-List-React"
     },
 {
     img: "images/portfolio7.png",
     title: "ToDo List app Java",
-    text: "SOLO PROJECT. This application helps to create a list of all user tasks. The user can add a new task to the list with the task priority and predicted finish date. The user can see the list of all tasks with two buttons: done and remove. Done button move selected tasks to the finalised section. Remove button deletes selected tasks. Technologies used: React, HTML, CSS",
-    link: "https://github.com/Slav666/js-group-project-beer"
+    text: "SOLO PROJECT. It's a full-stack application to create a list of all user tasks. User can type their name and choose a language. The app will welcome the user with a short sentence (in the selected language) and her or his name. The user can add a new task to do or mark tasks which are done. Technologies used: Java, H2 Database, HTML, CSS, JavaScript.",
+    link: "https://github.com/Slav666/Java_TODO-LIst"
     }
 
 
 ]
 
-const time = 3000;
+const time = 8000;
 let active = 0; 
 
 const changeDot = () => {
